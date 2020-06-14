@@ -1,0 +1,60 @@
+.joinOuter {
+    background-color: rgb(26, 26, 31);
+    height: 100vh;
+    display: flex;
+}
+
+.join {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+.heading {
+    color: #eee;
+    font-size: 2.5em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.joinInput {
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 10px;
+    width: 100%;
+    color: #eee;
+    background-color: rgb(59, 126, 228);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 991px) {
+    .join {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .join {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .join {
+        width: 90%;
+    }
+}
