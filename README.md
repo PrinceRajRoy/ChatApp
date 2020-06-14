@@ -1,4 +1,4 @@
-`A ReactJS + NodeJS App for chatting, which allows user to join a room with given id and talk with others in the same group.`
+`A ReactJS + NodeJS App for chatting, which allows user to join a room with given id and talk with others in the same room.`
 
 Open the project directory in a terminal,
 Then cd to client and run "npm init" to install the dependencies.
